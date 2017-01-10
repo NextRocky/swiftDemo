@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EE93D0375716F5FEE1AFDE4 /* Pods_WHWeiBo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BDC6A29016862A0E45A0C3 /* Pods_WHWeiBo.framework */; };
+		B401A35E1D3A4ACE001B1FCE /* NRDPullDownReload.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401A35D1D3A4ACE001B1FCE /* NRDPullDownReload.swift */; };
+		B401A3601D3B6FBD001B1FCE /* NSDate + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401A35F1D3B6FBD001B1FCE /* NSDate + Extension.swift */; };
+		B401A3621D3B7640001B1FCE /* NRDCompos.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401A3611D3B7640001B1FCE /* NRDCompos.swift */; };
+		B401A3641D3B76B1001B1FCE /* NRDComposeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401A3631D3B76B1001B1FCE /* NRDComposeModel.swift */; };
+		B401A3661D3B80B4001B1FCE /* UIImageView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401A3651D3B80B4001B1FCE /* UIImageView + Extension.swift */; };
+		B401A36D1D3B821C001B1FCE /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = B401A36C1D3B821C001B1FCE /* UIImage+ImageEffects.m */; };
+		B401A3701D3BB8D2001B1FCE /* NRDComposButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B401A36F1D3BB8D2001B1FCE /* NRDComposButton.swift */; };
+		B401A3721D3BC01A001B1FCE /* compose.plist in Resources */ = {isa = PBXBuildFile; fileRef = B401A3711D3BC01A001B1FCE /* compose.plist */; };
+		B43A3DE11D325A3F005E6685 /* NRDWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43A3DE01D325A3F005E6685 /* NRDWebViewController.swift */; };
+		B442B1201D361013009F0EF2 /* NRDStatusTableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B11F1D361013009F0EF2 /* NRDStatusTableViewModel.swift */; };
+		B442B1221D361026009F0EF2 /* NRDStatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B1211D361026009F0EF2 /* NRDStatusViewModel.swift */; };
+		B442B1261D364A49009F0EF2 /* NRDUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B1251D364A49009F0EF2 /* NRDUser.swift */; };
+		B442B1281D365C40009F0EF2 /* NRDOriginalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B1271D365C40009F0EF2 /* NRDOriginalView.swift */; };
+		B442B12A1D365D4F009F0EF2 /* NRDRetweetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B1291D365D4F009F0EF2 /* NRDRetweetView.swift */; };
+		B442B12D1D365DDF009F0EF2 /* NRDToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B12C1D365DDF009F0EF2 /* NRDToolBarView.swift */; };
+		B442B12F1D365E41009F0EF2 /* NRDTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B12E1D365E41009F0EF2 /* NRDTableViewCell.swift */; };
+		B442B1311D3661C8009F0EF2 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B442B1301D3661C8009F0EF2 /* UILabel+Extension.swift */; };
+		B4451E5E1D3E119500BB451E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B4451E5D1D3E119500BB451E /* Info.plist */; };
+		B4451E601D3E339900BB451E /* NRDShowPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4451E5F1D3E339900BB451E /* NRDShowPictureView.swift */; };
+		B4451E641D3E390700BB451E /* UIImage + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4451E631D3E390700BB451E /* UIImage + Extension.swift */; };
+		B4451E661D3E3FED00BB451E /* NRDPictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4451E651D3E3FED00BB451E /* NRDPictureCell.swift */; };
+		B4451E6A1D3F063A00BB451E /* NRDEmoticonBgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4451E691D3F063A00BB451E /* NRDEmoticonBgView.swift */; };
+		B4451E6C1D3F121B00BB451E /* NRDKeyBoardToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4451E6B1D3F121B00BB451E /* NRDKeyBoardToolBar.swift */; };
+		B4867B171D33B58800EFCDE6 /* NRDHTTPSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4867B161D33B58800EFCDE6 /* NRDHTTPSessionManager.swift */; };
+		B48C38B71D30ECFE00DEEE0D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C38B61D30ECFE00DEEE0D /* AppDelegate.swift */; };
+		B48C38BE1D30ECFE00DEEE0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B48C38BD1D30ECFE00DEEE0D /* Assets.xcassets */; };
+		B48C38C11D30ECFE00DEEE0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B48C38BF1D30ECFE00DEEE0D /* LaunchScreen.storyboard */; };
+		B48C38E11D31091B00DEEE0D /* NRDMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C38DC1D31091B00DEEE0D /* NRDMainViewController.swift */; };
+		B48C38E31D310C7D00DEEE0D /* NRDHomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C38E21D310C7D00DEEE0D /* NRDHomeTableViewController.swift */; };
+		B48C38E51D310CAC00DEEE0D /* NRDMessageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C38E41D310CAC00DEEE0D /* NRDMessageTableViewController.swift */; };
+		B48C38E71D310CB900DEEE0D /* NRDDiscoverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C38E61D310CB900DEEE0D /* NRDDiscoverTableViewController.swift */; };
+		B48C38E91D310CC800DEEE0D /* NRDProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C38E81D310CC800DEEE0D /* NRDProfileTableViewController.swift */; };
+		B48C38EC1D3112D700DEEE0D /* NRDTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C38EB1D3112D700DEEE0D /* NRDTabBar.swift */; };
+		B48C38F21D311E2A00DEEE0D /* NRDVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C38F11D311E2A00DEEE0D /* NRDVisitor.swift */; };
+		B48C38F41D311E6100DEEE0D /* NRDBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B48C38F31D311E6100DEEE0D /* NRDBaseViewController.swift */; };
+		B4A5D79F1D3283ED0034F6D3 /* NRDUserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A5D79E1D3283ED0034F6D3 /* NRDUserAccount.swift */; };
+		B4AD223B1D60C82D00DF50F6 /* NRDNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AD223A1D60C82D00DF50F6 /* NRDNavigationController.swift */; };
+		B4B443A71D3CE63C00B47B7F /* NRDSendWeiBoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B443A61D3CE63C00B47B7F /* NRDSendWeiBoViewController.swift */; };
+		B4B443A91D3D0DA300B47B7F /* NRDComposeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B443A81D3D0DA300B47B7F /* NRDComposeTextView.swift */; };
+		B4B443AB1D3D3A8700B47B7F /* NRDComposeToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B443AA1D3D3A8700B47B7F /* NRDComposeToolBar.swift */; };
+		B4B8AD771D31E232004FE19C /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8AD761D31E232004FE19C /* UIView+Extension.swift */; };
+		B4B8AD791D31F3FF004FE19C /* UITabBarItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B8AD781D31F3FF004FE19C /* UITabBarItem+Extension.swift */; };
+		B4C9E74F1D40E60A0064D907 /* NRDEmoticonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C9E74E1D40E60A0064D907 /* NRDEmoticonButton.swift */; };
+		B4C9E7511D41A1100064D907 /* NRDTextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C9E7501D41A1100064D907 /* NRDTextAttachment.swift */; };
+		B4C9E7531D41E1070064D907 /* NRDComposeTextView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C9E7521D41E1070064D907 /* NRDComposeTextView + Extension.swift */; };
+		B4C9E7571D4450100064D907 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C9E7561D4450100064D907 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B4C9E7591D44509B0064D907 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B4C9E7581D44509B0064D907 /* libicucore.tbd */; };
+		B4C9E75B1D4457300064D907 /* NRDMatchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C9E75A1D4457300064D907 /* NRDMatchResult.swift */; };
+		B4C9E7611D446EFD0064D907 /* NSAttributedString + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4C9E7601D446EFD0064D907 /* NSAttributedString + Extension.swift */; };
+		B4C9E7D71D45047D0064D907 /* SDBrowserImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C9E7D11D45047D0064D907 /* SDBrowserImageView.m */; };
+		B4C9E7D81D45047D0064D907 /* SDPhotoBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C9E7D31D45047D0064D907 /* SDPhotoBrowser.m */; };
+		B4C9E7D91D45047D0064D907 /* SDWaitingView.m in Sources */ = {isa = PBXBuildFile; fileRef = B4C9E7D61D45047D0064D907 /* SDWaitingView.m */; };
+		B4CBE41A1D3909F300F696BB /* NRDStatusPic_urls.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CBE4191D3909F300F696BB /* NRDStatusPic_urls.swift */; };
+		B4CBE41C1D390F5100F696BB /* NRDCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4CBE41B1D390F5100F696BB /* NRDCollectionView.swift */; };
+		B4D1D09C1D34F94300E02C8E /* NRDUserAccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1D09B1D34F94300E02C8E /* NRDUserAccountViewModel.swift */; };
+		B4D1D09F1D35174400E02C8E /* NRDWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1D09E1D35174400E02C8E /* NRDWelcomeViewController.swift */; };
+		B4D1D0A11D352B1E00E02C8E /* CommonTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1D0A01D352B1E00E02C8E /* CommonTools.swift */; };
+		B4D1D0A31D35492300E02C8E /* NRDStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4D1D0A21D35492300E02C8E /* NRDStatus.swift */; };
+		B4EF0C251D377E7E00058BC0 /* NRDSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF0C241D377E7E00058BC0 /* NRDSearchView.swift */; };
+		B4EF0C2A1D377F1B00058BC0 /* NRDSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4EF0C291D377F1B00058BC0 /* NRDSearchView.xib */; };
+		B4EF0C2C1D37C78F00058BC0 /* NRDTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EF0C2B1D37C78F00058BC0 /* NRDTabBarItem.swift */; };
+		B4FB70F81D3F261700BB50DF /* NRDEmojiCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FB70F71D3F261700BB50DF /* NRDEmojiCollectionView.swift */; };
+		B4FB70FA1D3F4AAB00BB50DF /* NRDOpenBundleTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FB70F91D3F4AAB00BB50DF /* NRDOpenBundleTools.swift */; };
+		B4FB70FC1D3F4C7A00BB50DF /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B4FB70FB1D3F4C7A00BB50DF /* Emoticons.bundle */; };
+		B4FB70FE1D3F4F7D00BB50DF /* NRDEmoticonList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FB70FD1D3F4F7D00BB50DF /* NRDEmoticonList.swift */; };
+		B4FB71021D3F6C6E00BB50DF /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = B4FB71011D3F6C6E00BB50DF /* NSString+Emoji.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46BDC6A29016862A0E45A0C3 /* Pods_WHWeiBo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WHWeiBo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		60C3543F4B424EE2654F0777 /* Pods-WHWeiBo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHWeiBo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WHWeiBo/Pods-WHWeiBo.release.xcconfig"; sourceTree = "<group>"; };
+		B401A35D1D3A4ACE001B1FCE /* NRDPullDownReload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDPullDownReload.swift; sourceTree = "<group>"; };
+		B401A35F1D3B6FBD001B1FCE /* NSDate + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate + Extension.swift"; sourceTree = "<group>"; };
+		B401A3611D3B7640001B1FCE /* NRDCompos.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NRDCompos.swift; path = ../main/view/NRDCompos.swift; sourceTree = "<group>"; };
+		B401A3631D3B76B1001B1FCE /* NRDComposeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDComposeModel.swift; sourceTree = "<group>"; };
+		B401A3651D3B80B4001B1FCE /* UIImageView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView + Extension.swift"; path = "../UIImageView + Extension.swift"; sourceTree = "<group>"; };
+		B401A36B1D3B821C001B1FCE /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		B401A36C1D3B821C001B1FCE /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		B401A36E1D3B8406001B1FCE /* WHWeiBo-Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WHWeiBo-Bridge-Header.h"; sourceTree = "<group>"; };
+		B401A36F1D3BB8D2001B1FCE /* NRDComposButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDComposButton.swift; sourceTree = "<group>"; };
+		B401A3711D3BC01A001B1FCE /* compose.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = compose.plist; path = ../Classes/View/compose.plist; sourceTree = "<group>"; };
+		B43A3DE01D325A3F005E6685 /* NRDWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDWebViewController.swift; sourceTree = "<group>"; };
+		B442B11F1D361013009F0EF2 /* NRDStatusTableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDStatusTableViewModel.swift; sourceTree = "<group>"; };
+		B442B1211D361026009F0EF2 /* NRDStatusViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDStatusViewModel.swift; sourceTree = "<group>"; };
+		B442B1251D364A49009F0EF2 /* NRDUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDUser.swift; sourceTree = "<group>"; };
+		B442B1271D365C40009F0EF2 /* NRDOriginalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NRDOriginalView.swift; path = ../NRDOriginalView.swift; sourceTree = "<group>"; };
+		B442B1291D365D4F009F0EF2 /* NRDRetweetView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NRDRetweetView.swift; path = ../NRDRetweetView.swift; sourceTree = "<group>"; };
+		B442B12C1D365DDF009F0EF2 /* NRDToolBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDToolBarView.swift; sourceTree = "<group>"; };
+		B442B12E1D365E41009F0EF2 /* NRDTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDTableViewCell.swift; sourceTree = "<group>"; };
+		B442B1301D3661C8009F0EF2 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		B4451E5D1D3E119500BB451E /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4451E5F1D3E339900BB451E /* NRDShowPictureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDShowPictureView.swift; sourceTree = "<group>"; };
+		B4451E631D3E390700BB451E /* UIImage + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage + Extension.swift"; sourceTree = "<group>"; };
+		B4451E651D3E3FED00BB451E /* NRDPictureCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDPictureCell.swift; sourceTree = "<group>"; };
+		B4451E691D3F063A00BB451E /* NRDEmoticonBgView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDEmoticonBgView.swift; sourceTree = "<group>"; };
+		B4451E6B1D3F121B00BB451E /* NRDKeyBoardToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDKeyBoardToolBar.swift; sourceTree = "<group>"; };
+		B4867B161D33B58800EFCDE6 /* NRDHTTPSessionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDHTTPSessionManager.swift; sourceTree = "<group>"; };
+		B48C38B31D30ECFE00DEEE0D /* WHWeiBo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHWeiBo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B48C38B61D30ECFE00DEEE0D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = WHWeiBo/AppDelegate.swift; sourceTree = "<group>"; };
+		B48C38BD1D30ECFE00DEEE0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B48C38C01D30ECFE00DEEE0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B48C38DC1D31091B00DEEE0D /* NRDMainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDMainViewController.swift; sourceTree = "<group>"; };
+		B48C38E21D310C7D00DEEE0D /* NRDHomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDHomeTableViewController.swift; sourceTree = "<group>"; };
+		B48C38E41D310CAC00DEEE0D /* NRDMessageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDMessageTableViewController.swift; sourceTree = "<group>"; };
+		B48C38E61D310CB900DEEE0D /* NRDDiscoverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDDiscoverTableViewController.swift; sourceTree = "<group>"; };
+		B48C38E81D310CC800DEEE0D /* NRDProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDProfileTableViewController.swift; sourceTree = "<group>"; };
+		B48C38EB1D3112D700DEEE0D /* NRDTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDTabBar.swift; sourceTree = "<group>"; };
+		B48C38F11D311E2A00DEEE0D /* NRDVisitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDVisitor.swift; sourceTree = "<group>"; };
+		B48C38F31D311E6100DEEE0D /* NRDBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDBaseViewController.swift; sourceTree = "<group>"; };
+		B4A5D79E1D3283ED0034F6D3 /* NRDUserAccount.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDUserAccount.swift; sourceTree = "<group>"; };
+		B4AD223A1D60C82D00DF50F6 /* NRDNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDNavigationController.swift; sourceTree = "<group>"; };
+		B4B443A61D3CE63C00B47B7F /* NRDSendWeiBoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDSendWeiBoViewController.swift; sourceTree = "<group>"; };
+		B4B443A81D3D0DA300B47B7F /* NRDComposeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDComposeTextView.swift; sourceTree = "<group>"; };
+		B4B443AA1D3D3A8700B47B7F /* NRDComposeToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDComposeToolBar.swift; sourceTree = "<group>"; };
+		B4B8AD761D31E232004FE19C /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIView+Extension.swift"; path = "../UIView+Extension.swift"; sourceTree = "<group>"; };
+		B4B8AD781D31F3FF004FE19C /* UITabBarItem+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UITabBarItem+Extension.swift"; path = "../UITabBarItem+Extension.swift"; sourceTree = "<group>"; };
+		B4C9E74E1D40E60A0064D907 /* NRDEmoticonButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDEmoticonButton.swift; sourceTree = "<group>"; };
+		B4C9E7501D41A1100064D907 /* NRDTextAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NRDTextAttachment.swift; path = ../NRDTextAttachment.swift; sourceTree = "<group>"; };
+		B4C9E7521D41E1070064D907 /* NRDComposeTextView + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NRDComposeTextView + Extension.swift"; sourceTree = "<group>"; };
+		B4C9E7551D4450100064D907 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
+		B4C9E7561D4450100064D907 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		B4C9E7581D44509B0064D907 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		B4C9E75A1D4457300064D907 /* NRDMatchResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDMatchResult.swift; sourceTree = "<group>"; };
+		B4C9E7601D446EFD0064D907 /* NSAttributedString + Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString + Extension.swift"; sourceTree = "<group>"; };
+		B4C9E7D01D45047D0064D907 /* SDBrowserImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBrowserImageView.h; sourceTree = "<group>"; };
+		B4C9E7D11D45047D0064D907 /* SDBrowserImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBrowserImageView.m; sourceTree = "<group>"; };
+		B4C9E7D21D45047D0064D907 /* SDPhotoBrowser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowser.h; sourceTree = "<group>"; };
+		B4C9E7D31D45047D0064D907 /* SDPhotoBrowser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDPhotoBrowser.m; sourceTree = "<group>"; };
+		B4C9E7D41D45047D0064D907 /* SDPhotoBrowserConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDPhotoBrowserConfig.h; sourceTree = "<group>"; };
+		B4C9E7D51D45047D0064D907 /* SDWaitingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWaitingView.h; sourceTree = "<group>"; };
+		B4C9E7D61D45047D0064D907 /* SDWaitingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWaitingView.m; sourceTree = "<group>"; };
+		B4CBE4191D3909F300F696BB /* NRDStatusPic_urls.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDStatusPic_urls.swift; sourceTree = "<group>"; };
+		B4CBE41B1D390F5100F696BB /* NRDCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDCollectionView.swift; sourceTree = "<group>"; };
+		B4D1D09B1D34F94300E02C8E /* NRDUserAccountViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NRDUserAccountViewModel.swift; path = ../Model/NRDUserAccountViewModel.swift; sourceTree = "<group>"; };
+		B4D1D09E1D35174400E02C8E /* NRDWelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDWelcomeViewController.swift; sourceTree = "<group>"; };
+		B4D1D0A01D352B1E00E02C8E /* CommonTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTools.swift; sourceTree = "<group>"; };
+		B4D1D0A21D35492300E02C8E /* NRDStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NRDStatus.swift; path = ../View/Home/NRDStatus.swift; sourceTree = "<group>"; };
+		B4EF0C241D377E7E00058BC0 /* NRDSearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NRDSearchView.swift; path = ../NRDSearchView.swift; sourceTree = "<group>"; };
+		B4EF0C291D377F1B00058BC0 /* NRDSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NRDSearchView.xib; sourceTree = "<group>"; };
+		B4EF0C2B1D37C78F00058BC0 /* NRDTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDTabBarItem.swift; sourceTree = "<group>"; };
+		B4FB70F71D3F261700BB50DF /* NRDEmojiCollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDEmojiCollectionView.swift; sourceTree = "<group>"; };
+		B4FB70F91D3F4AAB00BB50DF /* NRDOpenBundleTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDOpenBundleTools.swift; sourceTree = "<group>"; };
+		B4FB70FB1D3F4C7A00BB50DF /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		B4FB70FD1D3F4F7D00BB50DF /* NRDEmoticonList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NRDEmoticonList.swift; sourceTree = "<group>"; };
+		B4FB71001D3F6C6E00BB50DF /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		B4FB71011D3F6C6E00BB50DF /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		C8EB3009D01BA78502E17F24 /* Pods-WHWeiBo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WHWeiBo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WHWeiBo/Pods-WHWeiBo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B48C38B01D30ECFE00DEEE0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4C9E7591D44509B0064D907 /* libicucore.tbd in Frameworks */,
+				3EE93D0375716F5FEE1AFDE4 /* Pods_WHWeiBo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		478A13074317BB57847AB5F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C8EB3009D01BA78502E17F24 /* Pods-WHWeiBo.debug.xcconfig */,
+				60C3543F4B424EE2654F0777 /* Pods-WHWeiBo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B401A3671D3B817A001B1FCE /* Compose */ = {
+			isa = PBXGroup;
+			children = (
+				B4451E651D3E3FED00BB451E /* NRDPictureCell.swift */,
+				B401A3611D3B7640001B1FCE /* NRDCompos.swift */,
+				B401A36F1D3BB8D2001B1FCE /* NRDComposButton.swift */,
+				B4B443AA1D3D3A8700B47B7F /* NRDComposeToolBar.swift */,
+				B4451E5F1D3E339900BB451E /* NRDShowPictureView.swift */,
+				B4B443A81D3D0DA300B47B7F /* NRDComposeTextView.swift */,
+				B4B443A61D3CE63C00B47B7F /* NRDSendWeiBoViewController.swift */,
+				B401A3681D3B817A001B1FCE /* Emoticon */,
+			);
+			path = Compose;
+			sourceTree = "<group>";
+		};
+		B401A3681D3B817A001B1FCE /* Emoticon */ = {
+			isa = PBXGroup;
+			children = (
+				B4451E691D3F063A00BB451E /* NRDEmoticonBgView.swift */,
+				B4451E6B1D3F121B00BB451E /* NRDKeyBoardToolBar.swift */,
+				B4FB70F71D3F261700BB50DF /* NRDEmojiCollectionView.swift */,
+				B4C9E74E1D40E60A0064D907 /* NRDEmoticonButton.swift */,
+				B4C9E7501D41A1100064D907 /* NRDTextAttachment.swift */,
+				B4FB70FB1D3F4C7A00BB50DF /* Emoticons.bundle */,
+			);
+			name = Emoticon;
+			path = View;
+			sourceTree = "<group>";
+		};
+		B401A3691D3B821C001B1FCE /* ThridLib */ = {
+			isa = PBXGroup;
+			children = (
+				B4C9E7CF1D45047D0064D907 /* SDPhotoBrowser */,
+				B4C9E7541D4450100064D907 /* RegexKitLite */,
+				B4FB70FF1D3F6C6E00BB50DF /* NSStringEmoji */,
+				B401A36A1D3B821C001B1FCE /* UIImageEffects */,
+			);
+			path = ThridLib;
+			sourceTree = "<group>";
+		};
+		B401A36A1D3B821C001B1FCE /* UIImageEffects */ = {
+			isa = PBXGroup;
+			children = (
+				B401A36B1D3B821C001B1FCE /* UIImage+ImageEffects.h */,
+				B401A36C1D3B821C001B1FCE /* UIImage+ImageEffects.m */,
+			);
+			path = UIImageEffects;
+			sourceTree = "<group>";
+		};
+		B442B12B1D365D72009F0EF2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B442B1271D365C40009F0EF2 /* NRDOriginalView.swift */,
+				B442B1291D365D4F009F0EF2 /* NRDRetweetView.swift */,
+				B442B12C1D365DDF009F0EF2 /* NRDToolBarView.swift */,
+				B442B12E1D365E41009F0EF2 /* NRDTableViewCell.swift */,
+				B4CBE41B1D390F5100F696BB /* NRDCollectionView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B48C38AA1D30ECFE00DEEE0D = {
+			isa = PBXGroup;
+			children = (
+				B401A36E1D3B8406001B1FCE /* WHWeiBo-Bridge-Header.h */,
+				B48C38B61D30ECFE00DEEE0D /* AppDelegate.swift */,
+				B48C38D21D31091B00DEEE0D /* Classes */,
+				B48C38B51D30ECFE00DEEE0D /* WHWeiBo */,
+				B48C38B41D30ECFE00DEEE0D /* Products */,
+				478A13074317BB57847AB5F5 /* Pods */,
+				C6BE55D541C4DEE072850070 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B48C38B41D30ECFE00DEEE0D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B48C38B31D30ECFE00DEEE0D /* WHWeiBo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B48C38B51D30ECFE00DEEE0D /* WHWeiBo */ = {
+			isa = PBXGroup;
+			children = (
+				B48C38BD1D30ECFE00DEEE0D /* Assets.xcassets */,
+				B4451E5D1D3E119500BB451E /* Info.plist */,
+				B48C38BF1D30ECFE00DEEE0D /* LaunchScreen.storyboard */,
+				B401A3711D3BC01A001B1FCE /* compose.plist */,
+			);
+			path = WHWeiBo;
+			sourceTree = "<group>";
+		};
+		B48C38D21D31091B00DEEE0D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B48C38D31D31091B00DEEE0D /* Model */,
+				B48C38D41D31091B00DEEE0D /* Tools */,
+				B48C38D51D31091B00DEEE0D /* View */,
+				B48C38E01D31091B00DEEE0D /* ViewModel */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B48C38D31D31091B00DEEE0D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B4A5D79E1D3283ED0034F6D3 /* NRDUserAccount.swift */,
+				B4D1D0A21D35492300E02C8E /* NRDStatus.swift */,
+				B442B1251D364A49009F0EF2 /* NRDUser.swift */,
+				B4CBE4191D3909F300F696BB /* NRDStatusPic_urls.swift */,
+				B401A3631D3B76B1001B1FCE /* NRDComposeModel.swift */,
+				B4FB70FD1D3F4F7D00BB50DF /* NRDEmoticonList.swift */,
+				B4C9E75A1D4457300064D907 /* NRDMatchResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B48C38D41D31091B00DEEE0D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				B4867B161D33B58800EFCDE6 /* NRDHTTPSessionManager.swift */,
+				B4D1D0A01D352B1E00E02C8E /* CommonTools.swift */,
+				B401A35D1D3A4ACE001B1FCE /* NRDPullDownReload.swift */,
+				B4FB70F91D3F4AAB00BB50DF /* NRDOpenBundleTools.swift */,
+				B401A3691D3B821C001B1FCE /* ThridLib */,
+				B4D1D0981D34F90500E02C8E /* Extension */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		B48C38D51D31091B00DEEE0D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B401A3671D3B817A001B1FCE /* Compose */,
+				B4D1D09D1D35171C00E02C8E /* welcome */,
+				B48C38D81D31091B00DEEE0D /* main */,
+				B48C38D71D31091B00DEEE0D /* Home */,
+				B48C38DE1D31091B00DEEE0D /* Message */,
+				B48C38D61D31091B00DEEE0D /* Discover */,
+				B48C38DF1D31091B00DEEE0D /* profile */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B48C38D61D31091B00DEEE0D /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				B48C38E61D310CB900DEEE0D /* NRDDiscoverTableViewController.swift */,
+				B4EF0C261D377EA800058BC0 /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		B48C38D71D31091B00DEEE0D /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B48C38E21D310C7D00DEEE0D /* NRDHomeTableViewController.swift */,
+				B442B12B1D365D72009F0EF2 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B48C38D81D31091B00DEEE0D /* main */ = {
+			isa = PBXGroup;
+			children = (
+				B43A3DE01D325A3F005E6685 /* NRDWebViewController.swift */,
+				B48C38DC1D31091B00DEEE0D /* NRDMainViewController.swift */,
+				B48C38F31D311E6100DEEE0D /* NRDBaseViewController.swift */,
+				B4AD223A1D60C82D00DF50F6 /* NRDNavigationController.swift */,
+				B48C38EA1D3112BB00DEEE0D /* view */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		B48C38DE1D31091B00DEEE0D /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				B48C38E41D310CAC00DEEE0D /* NRDMessageTableViewController.swift */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		B48C38DF1D31091B00DEEE0D /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				B48C38E81D310CC800DEEE0D /* NRDProfileTableViewController.swift */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		B48C38E01D31091B00DEEE0D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B4D1D09B1D34F94300E02C8E /* NRDUserAccountViewModel.swift */,
+				B442B1211D361026009F0EF2 /* NRDStatusViewModel.swift */,
+				B442B11F1D361013009F0EF2 /* NRDStatusTableViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B48C38EA1D3112BB00DEEE0D /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B48C38EB1D3112D700DEEE0D /* NRDTabBar.swift */,
+				B48C38F11D311E2A00DEEE0D /* NRDVisitor.swift */,
+				B4EF0C2B1D37C78F00058BC0 /* NRDTabBarItem.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B4C9E7541D4450100064D907 /* RegexKitLite */ = {
+			isa = PBXGroup;
+			children = (
+				B4C9E7551D4450100064D907 /* RegexKitLite.h */,
+				B4C9E7561D4450100064D907 /* RegexKitLite.m */,
+			);
+			path = RegexKitLite;
+			sourceTree = "<group>";
+		};
+		B4C9E7CF1D45047D0064D907 /* SDPhotoBrowser */ = {
+			isa = PBXGroup;
+			children = (
+				B4C9E7D01D45047D0064D907 /* SDBrowserImageView.h */,
+				B4C9E7D11D45047D0064D907 /* SDBrowserImageView.m */,
+				B4C9E7D21D45047D0064D907 /* SDPhotoBrowser.h */,
+				B4C9E7D31D45047D0064D907 /* SDPhotoBrowser.m */,
+				B4C9E7D41D45047D0064D907 /* SDPhotoBrowserConfig.h */,
+				B4C9E7D51D45047D0064D907 /* SDWaitingView.h */,
+				B4C9E7D61D45047D0064D907 /* SDWaitingView.m */,
+			);
+			path = SDPhotoBrowser;
+			sourceTree = "<group>";
+		};
+		B4D1D0981D34F90500E02C8E /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B401A3651D3B80B4001B1FCE /* UIImageView + Extension.swift */,
+				B4B8AD761D31E232004FE19C /* UIView+Extension.swift */,
+				B4B8AD781D31F3FF004FE19C /* UITabBarItem+Extension.swift */,
+				B442B1301D3661C8009F0EF2 /* UILabel+Extension.swift */,
+				B401A35F1D3B6FBD001B1FCE /* NSDate + Extension.swift */,
+				B4451E631D3E390700BB451E /* UIImage + Extension.swift */,
+				B4C9E7521D41E1070064D907 /* NRDComposeTextView + Extension.swift */,
+				B4C9E7601D446EFD0064D907 /* NSAttributedString + Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B4D1D09D1D35171C00E02C8E /* welcome */ = {
+			isa = PBXGroup;
+			children = (
+				B4D1D09E1D35174400E02C8E /* NRDWelcomeViewController.swift */,
+			);
+			path = welcome;
+			sourceTree = "<group>";
+		};
+		B4EF0C261D377EA800058BC0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B4EF0C241D377E7E00058BC0 /* NRDSearchView.swift */,
+				B4EF0C291D377F1B00058BC0 /* NRDSearchView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B4FB70FF1D3F6C6E00BB50DF /* NSStringEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				B4FB71001D3F6C6E00BB50DF /* NSString+Emoji.h */,
+				B4FB71011D3F6C6E00BB50DF /* NSString+Emoji.m */,
+			);
+			path = NSStringEmoji;
+			sourceTree = "<group>";
+		};
+		C6BE55D541C4DEE072850070 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4C9E7581D44509B0064D907 /* libicucore.tbd */,
+				46BDC6A29016862A0E45A0C3 /* Pods_WHWeiBo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B48C38B21D30ECFE00DEEE0D /* WHWeiBo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B48C38C51D30ECFE00DEEE0D /* Build configuration list for PBXNativeTarget "WHWeiBo" */;
+			buildPhases = (
+				230BAA0FB69C9683AA5D3D70 /* [CP] Check Pods Manifest.lock */,
+				B48C38AF1D30ECFE00DEEE0D /* Sources */,
+				B48C38B01D30ECFE00DEEE0D /* Frameworks */,
+				B48C38B11D30ECFE00DEEE0D /* Resources */,
+				BCD74EA6882C4F8C68EACE11 /* [CP] Embed Pods Frameworks */,
+				DB6C33A6D369AAE36B82BAB6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHWeiBo;
+			productName = WHWeiBo;
+			productReference = B48C38B31D30ECFE00DEEE0D /* WHWeiBo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B48C38AB1D30ECFE00DEEE0D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NRD;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "罗李";
+				TargetAttributes = {
+					B48C38B21D30ECFE00DEEE0D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = B48C38AE1D30ECFE00DEEE0D /* Build configuration list for PBXProject "WHWeiBo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B48C38AA1D30ECFE00DEEE0D;
+			productRefGroup = B48C38B41D30ECFE00DEEE0D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B48C38B21D30ECFE00DEEE0D /* WHWeiBo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B48C38B11D30ECFE00DEEE0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4EF0C2A1D377F1B00058BC0 /* NRDSearchView.xib in Resources */,
+				B4FB70FC1D3F4C7A00BB50DF /* Emoticons.bundle in Resources */,
+				B401A3721D3BC01A001B1FCE /* compose.plist in Resources */,
+				B48C38C11D30ECFE00DEEE0D /* LaunchScreen.storyboard in Resources */,
+				B4451E5E1D3E119500BB451E /* Info.plist in Resources */,
+				B48C38BE1D30ECFE00DEEE0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		230BAA0FB69C9683AA5D3D70 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BCD74EA6882C4F8C68EACE11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHWeiBo/Pods-WHWeiBo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB6C33A6D369AAE36B82BAB6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WHWeiBo/Pods-WHWeiBo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B48C38AF1D30ECFE00DEEE0D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B48C38E11D31091B00DEEE0D /* NRDMainViewController.swift in Sources */,
+				B442B12F1D365E41009F0EF2 /* NRDTableViewCell.swift in Sources */,
+				B4FB71021D3F6C6E00BB50DF /* NSString+Emoji.m in Sources */,
+				B4B443A91D3D0DA300B47B7F /* NRDComposeTextView.swift in Sources */,
+				B48C38E31D310C7D00DEEE0D /* NRDHomeTableViewController.swift in Sources */,
+				B4451E6A1D3F063A00BB451E /* NRDEmoticonBgView.swift in Sources */,
+				B48C38F21D311E2A00DEEE0D /* NRDVisitor.swift in Sources */,
+				B4B443A71D3CE63C00B47B7F /* NRDSendWeiBoViewController.swift in Sources */,
+				B4451E601D3E339900BB451E /* NRDShowPictureView.swift in Sources */,
+				B442B1261D364A49009F0EF2 /* NRDUser.swift in Sources */,
+				B4C9E74F1D40E60A0064D907 /* NRDEmoticonButton.swift in Sources */,
+				B4EF0C2C1D37C78F00058BC0 /* NRDTabBarItem.swift in Sources */,
+				B4FB70F81D3F261700BB50DF /* NRDEmojiCollectionView.swift in Sources */,
+				B48C38E71D310CB900DEEE0D /* NRDDiscoverTableViewController.swift in Sources */,
+				B401A3621D3B7640001B1FCE /* NRDCompos.swift in Sources */,
+				B4AD223B1D60C82D00DF50F6 /* NRDNavigationController.swift in Sources */,
+				B4D1D0A31D35492300E02C8E /* NRDStatus.swift in Sources */,
+				B4FB70FE1D3F4F7D00BB50DF /* NRDEmoticonList.swift in Sources */,
+				B4C9E7531D41E1070064D907 /* NRDComposeTextView + Extension.swift in Sources */,
+				B401A3661D3B80B4001B1FCE /* UIImageView + Extension.swift in Sources */,
+				B442B1201D361013009F0EF2 /* NRDStatusTableViewModel.swift in Sources */,
+				B4D1D0A11D352B1E00E02C8E /* CommonTools.swift in Sources */,
+				B4C9E7D81D45047D0064D907 /* SDPhotoBrowser.m in Sources */,
+				B4C9E7511D41A1100064D907 /* NRDTextAttachment.swift in Sources */,
+				B48C38E51D310CAC00DEEE0D /* NRDMessageTableViewController.swift in Sources */,
+				B442B12D1D365DDF009F0EF2 /* NRDToolBarView.swift in Sources */,
+				B4B8AD791D31F3FF004FE19C /* UITabBarItem+Extension.swift in Sources */,
+				B48C38F41D311E6100DEEE0D /* NRDBaseViewController.swift in Sources */,
+				B4867B171D33B58800EFCDE6 /* NRDHTTPSessionManager.swift in Sources */,
+				B4EF0C251D377E7E00058BC0 /* NRDSearchView.swift in Sources */,
+				B442B1221D361026009F0EF2 /* NRDStatusViewModel.swift in Sources */,
+				B4D1D09F1D35174400E02C8E /* NRDWelcomeViewController.swift in Sources */,
+				B4D1D09C1D34F94300E02C8E /* NRDUserAccountViewModel.swift in Sources */,
+				B48C38EC1D3112D700DEEE0D /* NRDTabBar.swift in Sources */,
+				B4C9E7D91D45047D0064D907 /* SDWaitingView.m in Sources */,
+				B4C9E7D71D45047D0064D907 /* SDBrowserImageView.m in Sources */,
+				B4C9E7571D4450100064D907 /* RegexKitLite.m in Sources */,
+				B48C38E91D310CC800DEEE0D /* NRDProfileTableViewController.swift in Sources */,
+				B4B8AD771D31E232004FE19C /* UIView+Extension.swift in Sources */,
+				B442B1281D365C40009F0EF2 /* NRDOriginalView.swift in Sources */,
+				B43A3DE11D325A3F005E6685 /* NRDWebViewController.swift in Sources */,
+				B4451E661D3E3FED00BB451E /* NRDPictureCell.swift in Sources */,
+				B401A3641D3B76B1001B1FCE /* NRDComposeModel.swift in Sources */,
+				B4C9E75B1D4457300064D907 /* NRDMatchResult.swift in Sources */,
+				B401A3701D3BB8D2001B1FCE /* NRDComposButton.swift in Sources */,
+				B4CBE41A1D3909F300F696BB /* NRDStatusPic_urls.swift in Sources */,
+				B4B443AB1D3D3A8700B47B7F /* NRDComposeToolBar.swift in Sources */,
+				B4CBE41C1D390F5100F696BB /* NRDCollectionView.swift in Sources */,
+				B401A3601D3B6FBD001B1FCE /* NSDate + Extension.swift in Sources */,
+				B4451E641D3E390700BB451E /* UIImage + Extension.swift in Sources */,
+				B4A5D79F1D3283ED0034F6D3 /* NRDUserAccount.swift in Sources */,
+				B48C38B71D30ECFE00DEEE0D /* AppDelegate.swift in Sources */,
+				B4C9E7611D446EFD0064D907 /* NSAttributedString + Extension.swift in Sources */,
+				B4451E6C1D3F121B00BB451E /* NRDKeyBoardToolBar.swift in Sources */,
+				B4FB70FA1D3F4AAB00BB50DF /* NRDOpenBundleTools.swift in Sources */,
+				B401A36D1D3B821C001B1FCE /* UIImage+ImageEffects.m in Sources */,
+				B442B1311D3661C8009F0EF2 /* UILabel+Extension.swift in Sources */,
+				B401A35E1D3A4ACE001B1FCE /* NRDPullDownReload.swift in Sources */,
+				B442B12A1D365D4F009F0EF2 /* NRDRetweetView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B48C38BF1D30ECFE00DEEE0D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B48C38C01D30ECFE00DEEE0D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B48C38C31D30ECFE00DEEE0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B48C38C41D30ECFE00DEEE0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B48C38C61D30ECFE00DEEE0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8EB3009D01BA78502E17F24 /* Pods-WHWeiBo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = WHWeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NR-Boom";
+				PRODUCT_NAME = WHWeiBo;
+				SWIFT_OBJC_BRIDGING_HEADER = "WHWeiBo-Bridge-Header.h";
+			};
+			name = Debug;
+		};
+		B48C38C71D30ECFE00DEEE0D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C3543F4B424EE2654F0777 /* Pods-WHWeiBo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = WHWeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NR-Boom";
+				PRODUCT_NAME = WHWeiBo;
+				SWIFT_OBJC_BRIDGING_HEADER = "WHWeiBo-Bridge-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B48C38AE1D30ECFE00DEEE0D /* Build configuration list for PBXProject "WHWeiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48C38C31D30ECFE00DEEE0D /* Debug */,
+				B48C38C41D30ECFE00DEEE0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B48C38C51D30ECFE00DEEE0D /* Build configuration list for PBXNativeTarget "WHWeiBo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B48C38C61D30ECFE00DEEE0D /* Debug */,
+				B48C38C71D30ECFE00DEEE0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B48C38AB1D30ECFE00DEEE0D /* Project object */;
+}
